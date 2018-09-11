@@ -28,7 +28,7 @@ public class DetalheActivity extends AppCompatActivity {
         if (extra != null) {
 
             //Colocamos na variável opcaoEscolhida a chave da MainActivity
-            String opcaoEscolhida = extra.getString("opcao");
+            String opcaoEscolhida = extra.getString("opção");
 
             //if para mostrar uma das imagens
             if (opcaoEscolhida.equals("cara")){
